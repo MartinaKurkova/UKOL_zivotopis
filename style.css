@@ -4,31 +4,37 @@ body {
     line-height: 1.5;
     background-color: #86b3d1;
     color: white;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 100px 0px 0px 0px;
+    margin: 0 auto;
+    padding: 0;
     min-width: 960px;
 }
 
-h1, h2, h3, h4 {
+.portret {
+    border-radius: 50%;
+    border: 10px white solid;
+    width: 250px;
+    margin: 20px;
+}
+
+h2, h3, h4 {
     font-family: "Merriweather Sans", sans-serif;
-    color: #4D6D9A;
-    padding: 0;
-    margin: 0;
 }
 
 h1 {
     font-weight: 800;
     margin: 0 auto;
     max-width: 960px;
-    padding: 50px 50px 10px 50px;
+    font-size: 40px;
+    color: #3c5b85;
+    font-family: "Merriweather", system-ui;
+    font-weight: 800;
 }
 h2 {
     background-color: #4D6D9A;
-    color: white;
+    color: #EDB5BF;
     border-radius: 5px 20px 5px 5px;
     padding: 5px 10px;
-    margin: 30px 0 10px 0;
+    margin: 0 0 10px 0;
     text-transform: uppercase;
     font-size: 24px;
     width: 350px;
@@ -36,24 +42,27 @@ h2 {
 
 h3 {
     font-weight: 800;
-    margin: 30px 0 0 0;
+    padding: 20px 0 0 0;
+    margin: 0;
+    color: #4D6D9A;
 }
-.portret {
-    border-radius: 50%;
-    border: 10px #EDB5BF solid;
-    width: 250px;
-    margin: 0px 30px 30px 0px;
+
+h4 {
+    color: #4D6D9A;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+p {
+    padding: 0 0 10px 0;
+    margin: 0; 
 }
 
 ul {
-    margin: 0;
+    margin: 10px;
     list-style:inside;
     margin: 0;
     padding: 0;
-}
-
-.menu ul{
-    background-color: #4D6D9A;
 }
 
 footer {
@@ -73,13 +82,7 @@ section {
     overflow: auto;
     margin: 0 auto;
     max-width: 960px;
-    padding: 50px 50px 10px 50px;
-}
-
-.hlavicka {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    padding: 20px 50px 10px 50px;
 }
 
 .menu {
@@ -106,5 +109,5 @@ section {
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: #756158;
+    background-color: #c4838f;
 }
